@@ -1,0 +1,2 @@
+2025-12-24 19:20:23---iFlow 静态模型列表缺少 glm-4.7 与 MiniMax-M2.1，导致本地 /v1/models 不展示这些模型---在 internal/registry/model_definitions.go 的 GetIFlowModels() 里按现有条目样式新增模型定义（仅补齐展示，未改动上游调用通道）---internal/registry/model_definitions.go, work.md
+2025-12-24 19:45:29---本机缺少 Go 工具链导致无法编译生成新 cli-proxy-api 二进制---使用 Homebrew 安装 go，并在仓库执行 go build 后备份并替换 ~/Downloads/CLIProxyAPI/cli-proxy-api---work.md, ~/Downloads/CLIProxyAPI/cli-proxy-api, ~/Downloads/CLIProxyAPI/cli-proxy-api.bak-20251224-193503
